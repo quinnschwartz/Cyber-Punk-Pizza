@@ -1,3 +1,47 @@
 .show-confirmation {
   display: none;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+  font-size: 100pt;
+}
+
+.jumbotron {
+  /*background-image: url("../img/code.jpg");*/
+  background-color: rgb(10, 20, 12);
+  color: rgb(249, 90, 47);
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.logo {
+  max-width: 300px;
+  float: right;
+}
+
+body {
+  background-color: rgb(12, 207, 195);
+}
+
+h2{
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bolder;
+}
+
+form {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 120%;
+}
+
+#size {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12pt;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+.receipt {
+  font-size: 110%;
 }
