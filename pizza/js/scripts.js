@@ -30,13 +30,11 @@ $(document).ready(function(){
     var inputSize = $("select#size").val();
     var toppingsArray = [];
     $("input:checkbox[name=toppings]:checked").each(function(){
-      var inputToppings = parseInt($(this).val());
+      var inputToppings = $(this).val();
       toppingsArray.push(inputToppings);
     });
 
-    var toppingsTotal = toppingsArray.reduce(function(a, b) {
-      return a + b;
-    }, 0);
+    var toppingsTotal = toppingsArray.length;
 
     var newPizza = new Pizza(inputSize, toppingsTotal);
 
@@ -44,7 +42,7 @@ $(document).ready(function(){
 
     $("div.show-confirmation").show();
     $("span.size").text(inputSize);
-    $("span.toppings").text(toppingsTotal);
+    $("span.toppingsArray").text(toppingsArray);
     $("span.price").text(newPizza.price);
 
   });
