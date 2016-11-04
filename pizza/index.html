@@ -9,7 +9,44 @@
     <title>Pizza App</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Cyber Punk Pizza</h1>
+      </div>
+      <h2>Pick a pizza:</h2>
+      <form>
+        <label for="Select your size:"></label>
+        <select id="size" class="form-control">
+          <option>Small ($7 Dollars)</option>
+          <option>Medium ($12 Dollars)</option>
+          <option>Large ($16 Dollars)</option>
+        </select>
+        <br>
+        <div class="form-group">
+          <p>Select your toppings ($1 dollar each for small, $1.50 for medium and $2.00 for large.  Cheese is included in the size price):</p>
+          <input type="checkbox" name="toppings" value=1>Pepperoni<br>
+          <input type="checkbox" name="toppings" value=1>Salami<br>
+          <input type="checkbox" name="toppings" value=1>Ham<br>
+          <input type="checkbox" name="toppings" value=1>Green Peppers<br>
+          <input type="checkbox" name="toppings" value=1>Onions<br>
+          <input type="checkbox" name="toppings" value=1>Jalapenos<br>
+          <input type="checkbox" name="toppings" value=1>Pinneaple<br>
+          <input type="checkbox" name="toppings" value=1>Olives<br>
+        </div>
+        <br>
+        <button type="submit" class="btn">Place your order!</button>
+      </form>
 
+      <div class="show-confirmation">
+        <h2 id="thank-you">Thank you for choosing Cyber Punk Pizza!</h2>
+        <img src="hiro.jpg" alt="image of delivery man">
+        <p>Here is your reciept:</p>
+        <ul>
+          <li>Pizza size: <span class="size"></span></li>
+          <li>Number of toppings: <span class="toppings"></span></li>
+          <li>Total price: <span class="price"></span></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
