@@ -38,7 +38,7 @@ Spec List:
   - Example Input: "large"
   - Example Output: 20 "dollars"
 
-2)  It can receive user input selecting number of toppings and return the appropriate price for the pizza based on the size of pizza selected.
+2)*DONE* It can receive user input selecting number of toppings and return the appropriate price for the pizza based on the size of pizza selected.
   - Example Input: size: "large" (16 dollars) toppings: "pepperoni, mushrooms" (2 dollars per topping)
   - Example Output: 20 dollars
 
