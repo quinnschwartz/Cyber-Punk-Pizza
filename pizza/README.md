@@ -34,7 +34,7 @@ Copyright (c) 2016 **_Quinn Schwartz**
 
 Spec List:
 
-1) It can receive user input selecting pizza size and return the appropriate price for that size.
+1)*DONE* It can receive user input selecting pizza size and return the appropriate price for that size.
   - Example Input: "large"
   - Example Output: 20 "dollars"
 
@@ -45,3 +45,5 @@ Spec List:
 3) (optional) It can receive user input selecting multiple pizzas and return the appropriate price based on the sizes and toppings of each pizza.
   - Example Input: large pizza with pepperoni, medium pizza (12 dollars) with olives and garlic (1.50 per topping).
   - Example Output: 33 dollars
+
+4) (optional) It can receive inputted address information if the user indicates that they want to have their order delivered.  
